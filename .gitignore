@@ -1,4 +1,5 @@
-*.vscode
-/.vscode
-/db.sqlite3
 /testenv
+.vscode
+vscode
+/.vscode
+db*
