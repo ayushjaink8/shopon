@@ -1,5 +1,7 @@
 How to Setup!
 
+################################################################################################
+
 **For linux or mac users :
 
 git clone https://github.com/ayushjaink8/shopon.git             # to clone the git repository
@@ -37,6 +39,7 @@ python manage.py migrate
 
 python manage.py runserver                                      # To run the development server
 
+################################################################################################
 
 Note:
 1) authentication will not work because client ID and client secret is not there in your db.sqlite3 (django-admin)
