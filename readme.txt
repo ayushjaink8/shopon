@@ -44,4 +44,11 @@ python manage.py runserver                                      # To run the dev
 Note:
 1) authentication will not work because client ID and client secret is not there in your db.sqlite3 (django-admin)
 
+2) Just in case .gitignore is not working then use these commands
+
+git rm -r --cached .                             # don't panic it just removed all the files and cache
+git add .                                        # added all the files again
+git commit -m ".gitignore is working"            # try changing something in .gitignore file now!
+
+
 
